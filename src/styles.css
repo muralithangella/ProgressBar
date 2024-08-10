@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Progress-Bar {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 20%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow-x: hidden;
+}
+.ProgressBar-Display {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+align-items: center; */
+}
+span {
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
